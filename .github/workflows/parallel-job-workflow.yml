@@ -33,7 +33,6 @@ jobs:
       run: echo "This is not the main branch"
 
     - name: Run Tests
-      script: - npm install --global mocha
       run: npm test
 
     - name: Debug message
@@ -61,7 +60,6 @@ jobs:
       run: echo "This is not the main branch"
 
     - name: Run Tests
-      script: - npm install --global mocha
       run: npm test
 
     - name: Debug message

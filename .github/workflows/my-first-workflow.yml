@@ -28,7 +28,6 @@ jobs:
       run: npm ci
 
     - name: Run tests
-      script: - npm install --global mocha
       run: npm test
 
     - name: Print a message
